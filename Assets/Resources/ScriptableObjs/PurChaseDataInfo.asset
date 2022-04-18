@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893390e98c6c6194fbf0c7af3bba213d, type: 3}
+  m_Name: PurChaseDataInfo
+  m_EditorClassIdentifier: 
+  mPurChaseDataList:
+  - ID: 101
+    Name: SpinItem x 10
+    AndroidKey: g7_tgaa012111001.retator.099
+    ItemID: 10003
+    ItemCount: 10
+    Price: 0.99
+    Discount: 0
+  - ID: 102
+    Name: SpinItem x 100
+    AndroidKey: g7_tgaa012111001.retator.999
+    ItemID: 10003
+    ItemCount: 100
+    Price: 9.99
+    Discount: 0
+  - ID: 103
+    Name: SpinItem x 1000
+    AndroidKey: g7_tgaa012111001.retator.1999
+    ItemID: 10003
+    ItemCount: 1000
+    Price: 19.99
+    Discount: -79
+  - ID: 104
+    Name: NoAD
+    AndroidKey: g7_tgaa012111001.removeads
+    ItemID: 10005
+    ItemCount: 1
+    Price: 4.99
+    Discount: 0
+  - ID: 105
+    Name: Follow1Week
+    AndroidKey: g7_tgaa012111001.vip1
+    ItemID: 20001
+    ItemCount: 1
+    Price: 1.99
+    Discount: 0
+  - ID: 106
+    Name: Follow1Month
+    AndroidKey: g7_tgaa012111001.vip2
+    ItemID: 20002
+    ItemCount: 1
+    Price: 4.99
+    Discount: -38
+  - ID: 107
+    Name: Follow6Month
+    AndroidKey: g7_tgaa012111001.vip3
+    ItemID: 20003
+    ItemCount: 1
+    Price: 19.99
+    Discount: -60

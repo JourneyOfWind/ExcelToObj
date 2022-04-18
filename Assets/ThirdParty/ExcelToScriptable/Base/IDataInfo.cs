@@ -1,0 +1,4 @@
+﻿interface IDataInfo
+{
+    void AddDataToDict();
+}

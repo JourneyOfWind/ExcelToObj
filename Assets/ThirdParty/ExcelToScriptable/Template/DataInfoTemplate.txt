@@ -1,0 +1,30 @@
+﻿using System.Collections.Generic;
+using UnityEngine;
+using System;
+public partial class ExcelDataInfo:ScriptableObject,IDataInfo
+{
+    public List<ExcelData> mExcelDataList = new List<ExcelData>();
+
+    private Dictionary<int, ExcelData> mExcelDataDict = new Dictionary<int, ExcelData>();
+    public ExcelData GetDataByID(int id)
+    {
+        if (mExcelDataDict.ContainsKey(id))
+        {
+            return mExcelDataDict[id];
+        }
+
+        return null;
+    }
+
+    public void AddDataToDict()
+    {
+        foreach (var data in mExcelDataList)
+        {
+            mExcelDataDict.Add(data.ID, data);
+        }
+    }
+
+    public void AddData(BaseData data) {     
+        mExcelDataList.Add((ExcelData)data);
+    }
+}

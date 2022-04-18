@@ -1,0 +1,9 @@
+﻿[Serializable]
+public class ExcelData:BaseData
+{
+Property   
+    public void ProcessContent(object[] contents)
+    {
+PropertiesStr
+    }
+}
